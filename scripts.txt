@@ -1,0 +1,27 @@
+
+CREATE TABLE [dbo].[products] (
+    [Id]          INT           IDENTITY (1, 1) NOT NULL,
+    [Title]       VARCHAR (50)  NOT NULL,
+    [description] VARCHAR (50)  NOT NULL,
+    [image]       VARCHAR (255) NULL,
+    [price]       INT           NOT NULL,
+    [quantity]    INT           NOT NULL,
+    [status]      VARCHAR (150) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+
+Install-Package Microsoft.EntityFrameworkCore.SqlServer -Version 8.0.27
+Install-Package Microsoft.EntityFrameworkCore.Tools -Version 8.0.27
+  
+
+
+"ConnectionStrings": {
+    "DefaultConnection": ""
+  }
+  Model
+  
+  Install-Package Swashbuckle.AspNetCore
+  //if error
+  Uninstall-Package Swashbuckle.AspNetCore
+Install-Package Swashbuckle.AspNetCore -Version 9.0.6

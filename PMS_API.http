@@ -1,0 +1,6 @@
+@PMS_API_HostAddress = http://localhost:5098
+
+GET {{PMS_API_HostAddress}}/api/products
+Accept: application/json
+
+###
